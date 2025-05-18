@@ -11,23 +11,23 @@ export const Container = styled.button<DS_ButtonProps>`
   min-width: 120px;
   height: 48px;
 
-  gap: ${DS_Spacing.s2};
-  padding: ${DS_Spacing.s3};
-  border-radius: ${DS_Spacing.s2};
+  gap: ${DS_Spacing.md};
+  padding: ${DS_Spacing.sm};
+  border-radius: ${DS_Spacing.sm};
   transition: background-color 0.2s ease;
 
   ${props => props.state === "default" && css`
-    background-color: ${DS_Colors.primary[900]};
+    background-color: ${DS_Colors.text.primario};
     &:hover {
-      background-color: ${DS_Colors.primary[700]};
+      background-color: ${DS_Colors.text.secundario};
     }
   `}
 
   ${props => props.state === "outline" && css`
-    background-color: ${DS_Colors.primary[700]};
-    border: ${DS_Spacing.s1} solid ${DS_Colors.primary[900]};
+    background-color: ${DS_Colors.text.primario};
+    border: ${DS_Spacing.sm} solid ${DS_Colors.text.secundario};
     &:hover {
-      background-color: ${DS_Colors.primary[600]};
+      background-color: ${DS_Colors.text.primario};
     }
   `}
 `;

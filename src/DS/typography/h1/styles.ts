@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const H1Styled = styled.h1`
-  font-size: 48px;
-  line-height: 56px;
-  font-weight: 700;
+    fontWeight: 'bold',
+    fontSize: '24px',
+    lineHeight: '35px',
+    letterSpacing: '0.02em',
+
 `;

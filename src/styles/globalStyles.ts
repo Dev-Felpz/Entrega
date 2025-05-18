@@ -25,8 +25,8 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     :root {
-      --primary: ${DS_Colors.primary[900]};
-      --white: ${DS_Colors.white};
-      --black: ${DS_Colors.black};
+      --primary: ${DS_Colors.text.primario};
+      --white: ${DS_Colors.neutrals.fundo};
+      --black: ${DS_Colors.gradient.primary};
     }
 `;

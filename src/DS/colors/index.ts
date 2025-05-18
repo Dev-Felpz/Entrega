@@ -1,13 +1,18 @@
 export const DS_Colors = {
-  primary: {
-    900: "#ED145B",
-    800: "#A60E60",
-    700: "#FFC5E4",
-    600: "#FF8AC9"
+   gradient: {
+    primary: 'linear-gradient(90deg, #790EFB 0%, #8F33FF 17%, #B4588E 45%, #D2588A 63%, #FF6B00 100%)',
   },
-  black: "#000",
-  white: "#FFF",
-  error: {
-    dark: "#D32F2F"
+  neutrals: {
+    fundo: '#FFFFFF',
+    surface: '#F6F6F6',
+    fundo20: '#D9D9D9',
+    fundo70: '#BDBDBD',
+  },
+  text: {
+    primario: '#FFFFFF',
+    secundario: '#BDBDBD',
+    inverso: '#000000',
+    acao: '#FF8040',
   }
 }
+
